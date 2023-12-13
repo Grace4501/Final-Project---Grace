@@ -1,0 +1,155 @@
+
+* {
+    font-family: lucida grande,lucida sans unicode,Arial,Helvetica,sans-serif;
+    margin: 0 0 0 0;
+}
+
+/*Heading Style*/
+
+.heading > section {
+    background-color: #343538;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.heading h1 {
+    text-align: center;
+    background-color: #343538;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(221, 145, 46);
+    font-family: 'Lora', serif;
+    text-decoration-thickness: 1.5px;
+    padding: 30px 10px 5px 10px;
+    font-size: 30px;
+}
+
+.heading ul {
+    list-style: none;
+    text-align: unset;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 30px 0px 10px 0px;
+    background-color: #5b5d61;
+    font-size: medium;
+}
+
+.current {
+    background-image: linear-gradient(#5b5d61, #838488);
+}
+
+.heading a {
+    text-decoration: none;
+    position: relative;
+    color: white;
+    padding: 10px 15px 10px 15px;
+}
+
+.heading a:hover {
+    background-image: linear-gradient(#5b5d61, #838488);
+}
+
+.heading p {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 25px 20px 25px 20px;
+    background-color: #f3f4f5;
+    text-align: center;
+    border-bottom: solid #5b5d61;
+}
+
+.heading h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid #5b5d61
+}
+
+/*Body Style*/
+
+.Notes {
+    background-color: #f3f4f5;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.Notes a {
+    text-decoration: none;
+    position: relative;
+    padding: 10px 15px 10px 15px;
+}
+
+.Notes h3 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.Notes p {
+    padding: 10px 15px 10px 15px;
+}
+
+.Notes img {
+    margin-bottom: 40px;
+}
+
+.Notes ul {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*Game*/
+.game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: rgb(221, 145, 46);
+    position:relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: #8a9dd7;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+.score{
+    text-align: center;
+}

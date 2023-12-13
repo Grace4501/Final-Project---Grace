@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Website</title>
+    <link rel="stylesheet" href="Page 2 - CSS.css">
+</head>
+<body>
+    <div class = "heading">
+        <section>
+            <h1>Creating a Website</h1>
+
+            <ul>
+                <li><a href="Page 1 - HTML.html">Home</a></li>
+                <li><a href="Page 2 - HTML.html" class="current" >HTML Cheatsheet</a></li>
+                <li><a href="Page 3 - HTML.html">Resume</a></li>
+                <li><a href="Page 4 - HTML.html">About Me</a></li>
+            </ul>
+        </section>
+
+        <p>
+            Here you will learn everything you need to know to master HTML
+        </p>
+    </div>
+
+    <div class="Notes">
+        
+        <div class="ToC">
+            <h2>Table of Contents </h2>
+            <h3><a href="#Chapter 1">Standard HTML Document</a></h3>
+            <h3><a href="#Chapter 2">Basic Elements</a></h3>
+            <h3><a href="#Chapter 3">Advanced Elements</a></h3>
+        </div>
+        
+        <h3><a id="Chapter 1">Standared HTML Document</a></h3>
+        <p>Starting off simple, we will look at a the starting code of a document</p>
+        <h4 class="imageheader">Example</h4>
+        <img src="./Images/Page 2/HTML Starting Code.png">
+        <p>This is brought up through a short cut: shift + ! and pressing enter</p>
+        <ul>
+            <li>!DOCTYPE html: specifies that the document is HTML</li>
+            <li>html lang="en": specifies that the decument is using the english language</li>
+            <li>head: there are two main parts of a website, head is all of the stuff before the elements of the document are put in. It mostly acts as a settings of the document.</li>
+            <li>title: the title, is you guessed it, where you put the title of the document  </li>
+            <li>body: The second main part of a website is the body, this is where almost all of the code will go including images, text and input fields.</li>
+        </ul>
+
+        <h3><a id="Chapter 2">Basic Elements</a></h3>
+        <p>The most common element used is the heading. It is represented by h1-5, h1 being the biggest going down through to h5. Another common element is the p element, which is the thing to use when writing out a paragraph.</p>
+        <h4 class="imageheader">Example</h4>
+        <img src="./Images/Page 2/heading and para code.png">
+        <h4 class="imageheader">Code Output</h4>
+        <img src="./Images/Page 2/Heading and para example.png">
+        <p>There are other useful things to add which act as an alternative to using CSS, this being "b", which is used to <b>bold</b> something and "i" which is used to <i>italic</i> something.</p>
+        <h4 class="imageheader">Example</h4>
+        <img src="./Images/Page 2/bold and italic code.png">
+        <p>A element that is less often used but is still a useful basic element is the "br" which is used to break the line between to elements. This is a self closing tag, meaning that it doesn't need another tag at the end with "/". </p>
+        <p>One more of the most common elements utilized is the image element, which is a self closing tag and inserts an image from your computer. The image must be within the same folder as the code.</p>
+        <h4 class="imageheader">Example</h4>
+        <img src="./Images/Page 2/Image code.png">
+        <p>Another element similar to the image tag to master is that of links.To link text or an image to something else, start by putting in a "a" followed by href="" (all within the same tag) put the address of what you want to be linked to with in the quotation marks, then put your closing tag and whatever you wish to link betweent the two.</p>
+
+        <h3><a id="Chapter 3">Advanced Elements</a></h3>
+        <p>Lists are an essential skill to master in order to create a great looking website. The best part is is that they are reletively simple. To start a list all that is neccesary is create a tag with "ul" or "ol" and inside of this you can put as many options as you would like. "ul" creates an unordered list with just bullet points. While "ol" creates an ordered list involving a numbered list. After those tags are put in place each new item in the list much have the tags "li"</p>
+        <p>Input boxes serve to take in the users input and are great for making things such as serve forms. First things first is to put the "form" tag and then put a tag with "input" within your form. There are many different types of inputs such as: 
+            <ul>
+                <li>button</li>
+                <li>color</li>
+                <li>checkbox</li>
+                <li>date</li>
+                <li>date-time-local</li>
+                <li>email</li>
+                <li>file</li>
+                <li>hidden</li>
+                <li>image</li>
+                <li>month</li>
+                <li>number</li>
+                <li>password</li>
+                <li>radio</li>
+                <li>range</li>
+                <li>reset</li>
+                <li>search</li>
+                <li>submit</li>
+                <li>tel</li>
+                <li>text</li>
+                <li>time</li>
+                <li>url</li>
+                <li>week</li>
+            </ul>
+            Another useful thing similar to input is the "select" tag with each selectable "option" being a tag within that.</p>
+        <h4 class="imageheader">Example</h4>
+        <img src="./Images/Page 2/Input code.png">
+        <p>The last advanced skill to master is that of table making. To start first make a table tag with border="" within, then to start the table put a opening and closing tag of "tr" followed by "th" with colspan"" to change the number of columns or rowspan"" to change how many rows.</p>
+        <h4 class="imageheader">Example</h4>
+        <img src="./Images/Page 2/Table code.png">
+        <h4 class="imageheader">Code Output</h4>
+        <img src="./Images/Page 2/Table example.png">
+
+        <p>A useful Website that has even more things not mentioned here: <a href="https://www.w3schools.com/tags/default.asp"><button >w3schools</button></a></p>
+    </div>
+</body>
+</html>
